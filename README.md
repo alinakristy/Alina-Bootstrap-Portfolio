@@ -52,11 +52,6 @@ When the page is loaded the page presents my name, and  a bar nav with links to
 
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-## About-Me
-
-This section contanis information text about me.
-and in this section I used 2 different cards from the bootstrap on the same row to show info abou me and my contacts.
-
 ## Accomplishment
 
 When viewing the section about my work , my education and my skills. you can see a cards section from bootstrap , that contain img  and links about my work and education and my projects.
@@ -70,6 +65,11 @@ In this section I used the rows components from bootstrap and it contain my Proj
      - https://alinakristy.github.io/prework-study-guide/
      - https://alinakristy.github.io/portfolio-website/
 
+## About-Me
+
+This section contanis information text about me.
+and in this section I used 2 different cards from the bootstrap on the same row to show info abou me and my contacts.
+
 
 ## Contact me
 
@@ -82,7 +82,7 @@ Here you can find  my contacts:
 
 ## Live URL
 
-https://alinakristy.github.io/
+https://alinakristy.github.io/Alina-Bootstrap-Portfolio/
 
 
 
