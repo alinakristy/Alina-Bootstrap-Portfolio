@@ -1,14 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alina Portofolio Website</title>
+    <link rel="stylesheet" href="./css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="./css/index.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-success-subtle">
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg bg-success" style="--bs-bg-opacity: 0.5;">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4" href="#"><span class="text-warning fw-bold fs-2">A</span>lina-Cristi Osipov</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-row-reverse fs-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#about-me">About Me</a>
+              <a class="nav-link" href="#accomplishments">Accomplishments</a>
+              <a class="nav-link" href="#my-projects">My Projects</a>
+              <a class="nav-link" href="#contact-me">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </nav> 
+      <!--end nav bar-->
+
+    <!--jumbotron--->
+    <div class="p-5 bg-body-tertiary rounded-3 jumbotronBackground">
+        <div class="container-fluid py-5 jumboCopy">
+          <h1 class="display-6 fw-bold big-jumbo text-decoration-underline">Aspiring Web Dev</h1>
+          <p class="col-md-12 fs-5 small-jumbo">Let's build something together</p>
+        </div>
+      </div>
+
+      <!--end jumbo-->
+      <!--cards-->
+      <div class="container text-center" id="accomplishments">
+        <h2 class="mb-4 mt-4">Accomplishments</h2>
+      <div class="card-group">
+        <div class="card border" >
+          <img src="./images/study1.avif" class="card-img-top-custom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <a href="https://ceiti.md/language/en/main/">CEITI 2008-2012</a><br>
+            <a href="https://usem.md/en">USEM University 2012-2016</a>
+          </div>
+        </div>
+        <div class="card border" id="card2">
+          <img src="./images/work1.jpeg" class="card-img-top card-img-top-custom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Work Experience</h5>
+            <a href="ttps://www.victoriabank.md/en">B.C Victoriabank 2012-2018 </a>
+            <p class="card-text">Bank teller 2012-2013<br>Economist at the bank 2013-2015<br>Bank cards,legal entities and <br>accounting 2015-2018</p>
+          </div>
+        </div>
+        <div class="card border"  >
+          <img src="./images/skils.jpeg" class="card-img-top card-img-top-custom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">6 years of working at the bank developed in me the ability to work in a team: to listen, to accept, to apply and even to criticize things when necessary. Also, working with clients and dealing with people all day, I learned kindness and immunized my patience. </p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--end cards-->
+
+      <!--rows>-->
+      <div class="container text-center" id="my-projects">
+        <h2 class="mb-4 mt-4">My Projects</h2>
+        <div class="container overflow-hidden text-center fs-5">
+            <div class="row gy-5">
+              <div class="col-6">
+                <div class="p-3">Project 1</div>
+                <a href="https://alinakristy.github.io/prework-study-guide/">Bootcamp  Prework-study guide </a>
+              </div>
+              <div class="col-6">
+                <div class="p-3">Project 2</div>
+                <a href="https://alinakristy.github.io/horision-website/"> Horiseon Markening Website </a>
+              </div>
+              <div class="col-6">
+                <div class="p-3">Project 3</div>
+                <a href="https://alinakristy.github.io/portfolio-website/"> Portofolio Website </a>
+              </div>
+              <div class="col-6">
+                <div class="p-3">Project 4</div>
+                <a href="https://alinakristy.github.io/horision-website/"> Horiseon Markening Website </a>
+              </div>
+            </div>
+          </div>
+          </div>
+      <!--end row-->
+      <!--about me>-->
+      <!--contact-->
+      <div class="container overflow-hidden text-center mb-4 mt-5">
+        <div class="row">
+          <div class="col-lg-6 mb-3 mb-sm-0">
+          <div class="card w-100 h-100">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/2023-11-06 01.30.00.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 ">
+                <div class="card-body" id="about-me">
+                  <h5 class="card-title">About Me</h5>
+                  <p class="card-text">I am a graduate of the <br>
+                    1. CEITI (college) in accounting <br>
+                    2. USEM (university) in Finance and Banks,Chisinau, Republic of Moldova .<br>
+                    After graduated college I started working at the bank. I worked for 6 years in B.C Victoriabank S.A Chisinau,R.of Moldova.
+                     During these working years I had the opportunity to work in different departments:credit/dedbit bank cards;deposits and savings accounts;internal and external money transfers; department of accounting and the department of legal entities.
+                     I loved my job but I also like challenges, so I decided to try something new and change my profession to Frontend Dev.</span>
+                </section>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6 mb-3 mb-sm-0" id="contact-me">
+          <div class="card w-100 h-100">
+            <div class="card-body">
+              <h5 class="card-title">Contact Me</h5>
+              <ol>
+                <li><span>Contact number: <a href="tel:1234567">1234567</a></span></li>
+                <li><span>GitHub: <a href="https://github.com/alinakristy"> GitHub</a></span></li>
+                <li>Linkedin: <a href="https://www.linkedin.com/in/alina-cristi-681830266/">LinkedIn</a></li>
+              </ol>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--footer-->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top w-100">
+        <div class="w-100 text-center">
+          <a href="https://www.google.com/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <i class="bi bi-bootstrap"></i>
+        </a>
+          <span class="mb-3 mb-md-0 text-body-secondary $teal-900 fs-3">Thanks for visiting!</span>
+        </div>
+      </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
 </html>
