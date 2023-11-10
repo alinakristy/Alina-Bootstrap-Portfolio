@@ -78,7 +78,8 @@ Here you can find  my contacts:
 * https://github.com/alinakristy
 * https://www.linkedin.com/in/alina-cristi-681830266/
 
-
+## Result site
+ ![Result-site](./images/alinakristy.github.io_Alina-Bootstrap-Portfolio_.png)
 
 ## Live URL
 
